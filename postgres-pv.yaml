@@ -11,4 +11,4 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: "/mnt/data/volumes" # Sets the volume's path
+    path: "/mnt/datas/volumes" # Sets the volume's path
