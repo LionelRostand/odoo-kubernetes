@@ -18,7 +18,7 @@ spec:
            resources:
              requests:
                memory: "200Mi"
-               cpu: "700m"
+               cpu: "100m"
            ports:
              - containerPort: 5432  # Exposes container port     
            envFrom:
