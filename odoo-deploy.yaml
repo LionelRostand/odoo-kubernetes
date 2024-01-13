@@ -17,7 +17,7 @@ spec:
       containers:
       - name: odoo
         image: odoo:15
-         resources:
+        resources:
           limits:
             memory: "200Mi"
             cpu: "700m"
