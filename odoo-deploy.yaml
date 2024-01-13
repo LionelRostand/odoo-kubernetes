@@ -23,7 +23,7 @@ spec:
             cpu: "700m"
           requests:
             memory: "200Mi"
-            cpu: "700m
+            cpu: "700m"
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
