@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: odoo
-        image: odoo:16
+        image: odoo:15
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
