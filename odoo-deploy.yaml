@@ -20,7 +20,7 @@ spec:
         resources:
           requests:
             memory: "200Mi"
-            cpu: "700m"
+            cpu: "100m"
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
