@@ -17,6 +17,13 @@ spec:
       containers:
       - name: odoo
         image: odoo:15
+         resources:
+          limits:
+            memory: "200Mi"
+            cpu: "700m"
+          requests:
+            memory: "200Mi"
+            cpu: "700m
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
