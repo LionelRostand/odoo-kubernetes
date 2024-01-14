@@ -16,14 +16,14 @@ spec:
     spec:
       containers:
       - name: odoo
-        image: odoo:15
+        image: odoo:17
         resources:
           limits:
-            memory: "200Mi"
-            cpu: "100m"
+            memory: "20Mi"
+            cpu: "5m"
           requests:
-            memory: "200Mi"
-            cpu: "100m"
+            memory: "20Mi"
+            cpu: "5m"
         securityContext:
           allowPrivilegeEscalation: false
           runAsUser: 0
