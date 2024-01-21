@@ -11,4 +11,4 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: "/mnt/datas/volumes/apps/odoo/testG" # Sets the volume's path
+    path: "/mnt/datas/volumes/apps/odoo/testH" # Sets the volume's path
