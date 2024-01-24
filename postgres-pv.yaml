@@ -12,3 +12,4 @@ spec:
     - ReadWriteMany
   hostPath:
     path: "/tmp/data" # Sets the volume's path
+  persistentVolumeReclaimPolicy: Recycle
