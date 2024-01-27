@@ -11,5 +11,5 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: "/tmp/data1" # Sets the volume's path
+    path: "/tmp/data2" # Sets the volume's path
   persistentVolumeReclaimPolicy: Recycle
