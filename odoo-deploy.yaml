@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: odoo
-        image: odoo:17
+        image: odoo:15
         resources:
           requests:
             memory: "64Mi"
